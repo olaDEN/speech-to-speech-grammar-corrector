@@ -23,7 +23,7 @@ For Windows: *Settings -> Microphone Privacy Settings -> turn "Allow apps to acc
 
 6- Once the gr-chatbot.py is loaded to the browser, you can click the "Speak" button and speak clearly with short and one sentence at a time, simple sentences works better ( Ex: You is beuatiful -> You are beutiful) (Like do not read a statement and expect the chatbot to answer you :D).
 
-P.S.: You do not need to continuously pressing the speak button while you speak, just click it one and start, once you finish speaking, the chatbot will wait for couple of seconds and then will answer you (with voice and text).
+P.S.: You do not need to continuously pressing the speak button while you speak, just click it once and start, once you finish speaking, the chatbot will wait for couple of seconds and then will answer you (with voice and text).
 
 7- For better performance, try to refresh the site after 5 speak tries (Issue related to the pretrained model).
 
