@@ -31,4 +31,4 @@ P.S.: You do not need to continuously pressing the speak button while you speak,
 
 9- Do not forget to chack the references.  **kindly keep the source info.**
 
-**Since this is a pretrained model, the answeres may be unexpected sometimes, either because of isseus related to microphone's quality or grammar evaluation.**
+**The answeres may be unexpected sometimes, either because of isseus related to microphone's quality or grammar processing tools.**
