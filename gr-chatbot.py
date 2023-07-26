@@ -11,7 +11,7 @@ import time
 
 colT1,colT2 = st.columns([1,3])
 with colT2:
-    st.title("Ai-GrammerBot")
+    st.title("GrammarBot")
 
 
 st.write("Hey there \U0001F44B \U0001F603 please click the \"Speak\" button and say something, i will check your grammar \U0001F609. ")
@@ -48,7 +48,7 @@ with mic as source:
             my_text = my_tool.correct(text)
             # correction 
             if len(my_text)==len(text):
-              st.markdown(f"## GrammerBot reply:")
+              st.markdown(f"## GrammarBot reply:")
               correct_text = "You said \"" + text + "\" and it is correct."
               pygame.init()
               pygame.mixer.init()
@@ -56,8 +56,8 @@ with mic as source:
               output = speak(correct_text)
               st.success(f"{correct_text}") 
             else:
-              # <h1 style='text-align: center; color: red;'>GrammerBot reply:</h1>
-              st.markdown("GrammerBot reply:", unsafe_allow_html=True)
+              # <h1 style='text-align: center; color: red;'>GrammarBot reply:</h1>
+              st.markdown("GrammarBot reply:", unsafe_allow_html=True)
               correct_text = "The correct way to say that: \"" + my_text + "\""
               pygame.init()
               pygame.mixer.init()
