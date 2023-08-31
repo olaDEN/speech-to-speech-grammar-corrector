@@ -1,5 +1,5 @@
 # speech-to-speech-grammer-corrector
-A speech to speech  grammar corrector application using python and streamlit
+A speech to speech  grammar corrector application using python and streamlit.
 
 ![Screenshot (106)](https://user-images.githubusercontent.com/97802281/202772404-d06c5121-a3b4-4b27-b360-aa9e41fba6e8.png)
 
